@@ -3,8 +3,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Marcela López "
+    return "UTN TELECOMUNICACIONES"
 
-@app.route("/")
-def hello():
-    return "Marcela López "
