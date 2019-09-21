@@ -9,5 +9,4 @@ def hello_flask():
 def hello_python():
    return 'Hello Python'
 
-if __name__ == '__main__':
-   app.run()
+
