@@ -1,9 +1,7 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
-
-@app.route('/suma/<int:s1>/<int:s2>',methods=['GET'])
-def suma(s1,s2):
-    return str(s1+s2)
-
-if __name__ == '__main__':
+@app.route("/")
+def main():
+    return render_template('index.html')
+if __name__ == "__main__":
     app.run()
