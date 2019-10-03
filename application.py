@@ -21,6 +21,9 @@ def iPhone_X___4():
 def iPhone_X___5():
      return render_template('iPhone_X___5.html')  
 
+@app.route("/iPhone_X___6.html")
+def iPhone_X___6():
+     return render_template('iPhone_X___6.html')      
  
 if __name__ == "__main__":
     app.run()
