@@ -5,7 +5,7 @@ def main():
     #return render_template('index.html')
      return render_template('iPhone_X___1.html')
 
-@app.route("/iPhone_X___2")
+@app.route("/iPhone_X___2.html")
 def iPhone_X___2():
      return render_template('iPhone_X___2.html')    
 
