@@ -13,7 +13,10 @@ def iPhone_X___2():
 def iPhone_X___3():
      return render_template('iPhone_X___3.html')   
 
+@app.route("/iPhone_X___4.html")
+def iPhone_X___4():
+     return render_template('iPhone_X___4.html') 
     
-
+    
 if __name__ == "__main__":
     app.run()
