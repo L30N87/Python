@@ -4,5 +4,9 @@ app = Flask(__name__)
 def main():
     #return render_template('index.html')
      return render_template('iPhone_X___1.html')
+@app.route("/iPhone_X___2")
+def main():
+     return render_template('iPhone_X___2.html')    
+
 if __name__ == "__main__":
     app.run()
